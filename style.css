@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  font-size: 16px;
+}
+
+.text_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 80%; */
+}
+
+textarea {
+  width: 80%;
+}
+
+.observer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 1em;
+  width: 85%;
+  margin: 1em auto;
+  padding: 1em;
+  word-break: break-all;
+}
+
+.observer {
+  border: 1px solid black;
+  height: 15em;
+  background-color: #d1d0cf;
+}
